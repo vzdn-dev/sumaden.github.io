@@ -16,10 +16,6 @@ $(function(){
 	
 	
 	
-	var PATH = "https://www.vzdn.co.jp/_/";
-	
-	
-	
 	$("body").addClass("type2021");
 	
 	
@@ -173,7 +169,7 @@ $(function(){
 		var h1 = document.createElement("h1");
 		var a = document.createElement("a");
 		var logo = new Image();
-		logo.src = PATH + "img/logo.svg";
+		logo.src = "https://ferret-one.akamaized.net/images/601027b45a4bb90f72514165/original.svg";
 
 		a.href = "https://smaden.com/";
 		a.appendChild(logo);
@@ -232,7 +228,7 @@ $(function(){
 
 
 		var links = [
-			["スマ電について", "https://smaden.com/co2zero/about"],
+			["スマ電CO2ゼロについて", "https://smaden.com/co2zero/about"],
 			["ご契約の流れ", "https://smaden.com/co2zero/flow"],
 			["料金プラン", "https://smaden.com/co2zero/plan"],
 			["よくあるご質問", "https://smaden.com/co2zero/faq"]
@@ -264,7 +260,7 @@ $(function(){
 		foot.id = "foot2021";
 		
 		var links1 = [
-			["スマ電について", "https://smaden.com/co2zero/about"],
+			["スマ電CO2ゼロについて", "https://smaden.com/co2zero/about"],
 			["ご契約の流れ", "https://smaden.com/co2zero/flow"],
 			["料金プラン", "https://smaden.com/co2zero/plan"],
 			["よくあるご質問", "https://smaden.com/co2zero/faq"]
@@ -288,12 +284,11 @@ $(function(){
 		
 		
 		var links2 = [
-			["提携店一覧", "https://smaden.com/store"],
 			["お申込みフォーム", "https://portal.smaden.com/general/application?agencycd=CO2z"],
 			["スマート通電 by スマ電のご案内", "https://smaden.com/partner"],
 			["運営会社", "https://smaden.com/info/company.html"],
 			["個人情報保護方針", "https://smaden.com/info/privacy.html"],
-			["電気供給約款", "https://smaden.com/__/download/5f61c350cc344217596e7e54/agreement.pdf"],
+			["電気供給約款", "https://fo-pro.s3.ap-northeast-1.amazonaws.com/files/6008ca01211cf02d5bd8e815/agreement.pdf"],
 			["重要事項説明", "https://smaden.com/info/important.html"]
 		];
 
@@ -318,7 +313,7 @@ $(function(){
 		var a = document.createElement("a");
 		var logo = new Image();
 		logoBox.className = "logo";
-		logo.src = PATH + "img/logo_white.svg";
+		logo.src = "https://ferret-one.akamaized.net/images/601027c45a4bb91049514267/original.svg";
 		
 		logoBox.appendChild(a);
 		a.appendChild(logo);
