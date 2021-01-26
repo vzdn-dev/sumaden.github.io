@@ -640,6 +640,17 @@ body.type2021 .kv-sp {
 		margin: auto !important;
 	}
 	
+	
+	
+	.box1.subtitle1 h2 {
+		margin: 0 !important;
+		text-align: center;
+		font-size: 36px !important;
+		color: #41b25d;
+	}
+	.box1.subtitle1 .compact h2 br {
+		display: none;
+	}
 }
 
 
@@ -1367,6 +1378,14 @@ body.type2021 .kv-sp {
 		transform: translateY(-40px);
 	}
 	*/
+	
+	
+	.box1.subtitle1 h2 {
+		margin: 0 !important;
+		text-align: center;
+		font-size: 18px !important;
+		color: #41b25d;
+	}
 }
 
 
