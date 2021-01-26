@@ -468,6 +468,7 @@ body.type2021 .kv-sp {
 	.intro1-pc {
 	 	padding: 80px 0 !important;
 		text-align: center;
+		background: #fff;
 	}
 	.intro1-pc img {
 		width: 897px !important;
@@ -1126,6 +1127,7 @@ body.type2021 .kv-sp {
 	.intro1-sp {
 	 	padding: 20px !important;
 		text-align: center;
+		background: #fff;
 	}
 	.intro1-sp .row .col {
 	 	padding: 0 !important;
