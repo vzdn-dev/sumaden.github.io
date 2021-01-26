@@ -397,7 +397,9 @@ body.type2021 .kv-sp {
 	
 	
 	
-	
+	.bg-white {
+		background: #fff;
+	}
 	.bg-green {
 		background: #e3fbe7;
 	}
@@ -1058,7 +1060,9 @@ body.type2021 .kv-sp {
 	
 	
 	
-	
+	.bg-white {
+		background: #fff;
+	}
 	.bg-green {
 		background: #e3fbe7;
 	}
