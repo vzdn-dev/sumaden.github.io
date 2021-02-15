@@ -209,7 +209,7 @@ $(function(){
 		li2.className = "appli";
 		var a2 = document.createElement("a");
 		a2.innerHTML = "<i></i>お申し込み";
-		a2.href = "https://portal.smaden.com/general/application?agencycd=CO2z";
+		a2.href = "https://portal.smaden.com/general/sApplication/";
 
 		var li3 = document.createElement("li");
 		li3.className = "login";
@@ -284,7 +284,7 @@ $(function(){
 		
 		
 		var links2 = [
-			["お申込みフォーム", "https://portal.smaden.com/general/application?agencycd=CO2z"],
+			["お申込みフォーム", "https://portal.smaden.com/general/sApplication/"],
 			["スマート通電 by スマ電のご案内", "https://smaden.com/partner"],
 			["運営会社", "https://smaden.com/info/company.html"],
 			["個人情報保護方針", "https://smaden.com/info/privacy.html"],
@@ -352,7 +352,7 @@ $(function(){
 		li2.className = "appli";
 		var a2 = document.createElement("a");
 		a2.innerHTML = "<i></i><span>お申し込み</span>";
-		a2.href = "https://portal.smaden.com/general/application?agencycd=CO2z";
+		a2.href = "https://portal.smaden.com/general/sApplication/";
 		li2.appendChild(a2);
 		ul1.appendChild(li2);
 		
