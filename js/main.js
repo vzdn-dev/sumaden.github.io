@@ -288,7 +288,7 @@ $(function(){
 			["スマート通電 by スマ電のご案内", "https://smaden.com/partner"],
 			["運営会社", "https://smaden.com/info/company.html"],
 			["個人情報保護方針", "https://smaden.com/info/privacy.html"],
-			["電気供給約款", "https://fo-pro.s3.ap-northeast-1.amazonaws.com/files/6008ca01211cf02d5bd8e815/agreement.pdf"],
+			["電気供給約款", "https://ferret-one.akamaized.net/files/60ee2c5546f54a2c8c0a32c7/agrement.pdf"],
 			["重要事項説明", "https://smaden.com/info/important.html"]
 		];
 
