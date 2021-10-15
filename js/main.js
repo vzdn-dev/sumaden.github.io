@@ -286,6 +286,7 @@ $(function(){
 		var links2 = [
 			["お申込みフォーム", "https://portal.smaden.com/general/sApplication/"],
 			["スマート通電 by スマ電のご案内", "https://smaden.com/partner"],
+			["グリラボ", "https://gurilabo.igrid.co.jp/"],
 			["運営会社", "https://smaden.com/info/company.html"],
 			["個人情報保護方針", "https://smaden.com/info/privacy.html"],
 			["電気供給約款", "https://ferret-one.akamaized.net/files/60ee2c5546f54a2c8c0a32c7/agrement.pdf"],
