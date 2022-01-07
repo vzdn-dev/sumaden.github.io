@@ -387,7 +387,7 @@ $(function(){
 		$(".kv-pc .col img").each(function(){
 			var slide = document.createElement("div");
 			var img = new Image();
-			img.src = this.getAttribute("data-original");
+			img.src = this.getAttribute("data-original") || this.src;
 			slide.appendChild(img);
 			kvpcInner.appendChild(slide);
 		});
@@ -402,7 +402,7 @@ $(function(){
 		$(".kv-sp .col img").each(function(){
 			var slide = document.createElement("div");
 			var img = new Image();
-			img.src = this.getAttribute("data-original");
+			img.src = this.getAttribute("data-original") || this.src;
 			slide.appendChild(img);
 			kvspInner.appendChild(slide);
 		});
