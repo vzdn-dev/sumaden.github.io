@@ -14,7 +14,7 @@ $(function(){
 	if(location.hash == "#old") {
 		var targetNode = $(".old-plan");
 		if(targetNode.length) {
-			window.scrollTo(0, targetNode.offsetTop());
+			window.scrollTo(0, targetNode.offset().top);
 		}
 	}
 	
