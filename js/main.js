@@ -15,7 +15,7 @@ $(function(){
 		var targetNode = $(".old-plan");
 		if(targetNode.length) {
 			var offset = window.innerWidth >= 770 ? 620 : 300;
-			window.scrollTo(0, targetNode.offsetTop() - offset);
+			window.scrollTo(0, targetNode.offset().top - offset);
 		}
 	}
 	
