@@ -29,67 +29,66 @@ $(function(){
 	
 	
 	$("body").addClass("type2021");
-	
+	if(window.isLP) {
+		$("body").addClass("type-lp");
+	}
 	
 	var wrap = $(".wrapper")[0];
 	var pointer = wrap.getElementsByTagName("*")[0];
 	
 	
-	initHeader();
-	initFooter();
-	
-	if(window.isTop) {
-		initKV();
-	}
-	
-	console.log(window.isTop)
-	if(window.isTop) {
-		initShortcut();
-	}
-	
+	window.addEventListener("load", function(){
+		setTimeout(function(){
+			initHeader();
+			initFooter();
 
-
-
-	if(window.isTop) {
-		var js = document.createElement("script");
-		js.src = "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js";
-		document.body.appendChild(js);
-		
-		var timer = setInterval(function(){
-			if($("body").slick) {
-				clearInterval(timer);
-				initSlick();
+			if(window.isTop) {
+				initKV();
 			}
+
+			if(window.isTop) {
+				initShortcut();
+			}
+
+
+
+			if(window.isTop) {
+				var js = document.createElement("script");
+				js.src = "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js";
+				document.body.appendChild(js);
+
+				var timer = setInterval(function(){
+					if($("body").slick) {
+						clearInterval(timer);
+						initSlick();
+					}
+				}, 100);
+			}
+
+
+			window.addEventListener("scroll", function(){
+				var y = window.scrollY;
+				if(y > window.innerHeight) {
+					$("body").addClass("scrolled");
+				}
+				else {
+					$("body").removeClass("scrolled");
+				}
+
+				if(y >= $("body").outerHeight(true) - window.innerHeight) {
+					$("body").addClass("scroll-ended");
+				}
+				else {
+					$("body").removeClass("scroll-ended");
+				}
+			}, {passive:false});
+
+
+			$(".pagetop").on("click", function(){
+				$("html,body").animate({scrollTop:0}, {duration:800});
+			});
 		}, 100);
-	}
-	
-	
-	
-	
-	
-	
-	window.addEventListener("scroll", function(){
-		var y = window.scrollY;
-		if(y > window.innerHeight) {
-			$("body").addClass("scrolled");
-		}
-		else {
-			$("body").removeClass("scrolled");
-		}
-		
-		if(y >= $("body").outerHeight(true) - window.innerHeight) {
-			$("body").addClass("scroll-ended");
-		}
-		else {
-			$("body").removeClass("scroll-ended");
-		}
-	}, {passive:false});
-	
-	
-	$(".pagetop").on("click", function(){
-		$("html,body").animate({scrollTop:0}, {duration:800});
 	});
-	
 	
 	
 	
@@ -167,7 +166,7 @@ $(function(){
 	function initHeader(){
 		var head = document.createElement("header");
 		head.id = "head2021";
-
+console.log(wrap, pointer)
 		var container1 = document.createElement("div");
 		container1.className = "container1";
 		head.appendChild(container1);
@@ -421,3 +420,4 @@ $(function(){
 	}
 	
 });
+
