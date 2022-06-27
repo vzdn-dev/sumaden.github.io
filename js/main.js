@@ -43,7 +43,12 @@ $(function(){
 			initFooter();
 
 			if(window.isTop) {
-				initKV();
+				if(window.isLP) {
+					initKVLP();
+				}
+				else {
+					initKV();
+				}
 			}
 
 			if(window.isTop) {
@@ -166,7 +171,7 @@ $(function(){
 	function initHeader(){
 		var head = document.createElement("header");
 		head.id = "head2021";
-console.log(wrap, pointer)
+
 		var container1 = document.createElement("div");
 		container1.className = "container1";
 		head.appendChild(container1);
@@ -180,15 +185,24 @@ console.log(wrap, pointer)
 		var h1 = document.createElement("h1");
 		var a = document.createElement("a");
 		var logo = new Image();
-		logo.src = "https://ferret-one.akamaized.net/images/601027b45a4bb90f72514165/original.svg";
-
-		a.href = "https://smaden.com/";
+		
+		if(window.isLP) {
+			logo.src = $(".lp-logo img").attr("src");
+			if($(".lp-logo a").length) {
+				a.href = $(".lp-logo a").attr("href");
+			}
+		}
+		else {
+			logo.src = "https://ferret-one.akamaized.net/images/601027b45a4bb90f72514165/original.svg";
+			a.href = "https://smaden.com/";
+		}
+		
 		a.appendChild(logo);
 		h1.appendChild(a);
 		container1.appendChild(h1);
 		wrap.insertBefore(head, pointer);
 
-
+		
 		
 		
 		var btn = document.createElement("a");
@@ -237,7 +251,11 @@ console.log(wrap, pointer)
 		nav1.appendChild(ul1);
 		container2.appendChild(nav1);
 
-
+		if(window.isLP) {
+			return;
+		}
+		
+		
 		var links = [
 			["スマ電CO2ゼロについて", "https://smaden.com/co2zero/about"],
 			["ご契約の流れ", "https://smaden.com/co2zero/flow"],
@@ -419,5 +437,26 @@ console.log(wrap, pointer)
 		});
 	}
 	
+	
+	
+	function initKVLP() {
+		var kv = document.createElement("div");
+		kv.id = "kv";
+		wrap.insertBefore(kv, pointer);
+		
+		var kvpc = document.createElement("div");
+		var kvpcInner = document.createElement("div");
+		kvpc.className = "kv-slide-pc";
+		kvpcInner.className = "inner";
+		kvpc.appendChild(kvpcInner);
+		kv.appendChild(kvpc);
+		$(".kv-pc .col img").each(function(){
+			var slide = document.createElement("div");
+			var img = new Image();
+			img.src = this.getAttribute("data-original") || this.src;
+			slide.appendChild(img);
+			kvpcInner.appendChild(slide);
+		});
+	}
+	
 });
-
