@@ -411,7 +411,6 @@ $(function(){
 					a2.target = $(".lp-logo .header-btn-entry a").attr("target");
 				}
 			}
-			return;
 		}
 		
 		
