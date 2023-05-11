@@ -325,7 +325,7 @@ $(function(){
 		
 		
 		var links2 = [
-			["お申込みフォーム", "https://portal.smaden.com/general/sApplication/"],
+			["お申込みフォーム", "https://smaden.com/co2zero/applicationselect"],
 			["スマート通電 by スマ電のご案内", "https://smaden.com/partner"],
 			["グリラボ", "https://gurilabo.igrid.co.jp/"],
 			["運営会社", "https://smaden.com/info/company.html"],
