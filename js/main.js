@@ -234,7 +234,7 @@ $(function(){
 		li2.className = "appli";
 		var a2 = document.createElement("a");
 		a2.innerHTML = "<i></i>お申し込み";
-		a2.href = "https://portal.smaden.com/general/sApplication/";
+		a2.href = "https://smaden.com/co2zero/applicationselect";
 
 		var li3 = document.createElement("li");
 		li3.className = "login";
@@ -394,7 +394,7 @@ $(function(){
 		li2.className = "appli";
 		var a2 = document.createElement("a");
 		a2.innerHTML = "<i></i><span>お申し込み</span>";
-		a2.href = "https://portal.smaden.com/general/sApplication/";
+		a2.href = "https://smaden.com/co2zero/applicationselect";
 		li2.appendChild(a2);
 		ul1.appendChild(li2);
 		
