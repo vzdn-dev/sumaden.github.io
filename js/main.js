@@ -388,7 +388,7 @@ $(function(){
 		a1.innerHTML = "<i></i><span>シミュレーション</span>";
 		a1.href = "https://smaden.enechange.jp/try/input";
 		li1.appendChild(a1);
-		//ul1.appendChild(li1);
+		ul1.appendChild(li1);
 		
 		var li2 = document.createElement("li");
 		li2.className = "appli";
