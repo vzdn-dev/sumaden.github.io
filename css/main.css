@@ -964,7 +964,10 @@ body.type2021 .kv-sp {
 		display: flex;
 	}
 	.shortcut li {
+		/*
 		width: 50%;
+		*/
+		width: 100%;
 	}
 	.shortcut a {
 		display: block;
