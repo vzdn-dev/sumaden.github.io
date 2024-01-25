@@ -326,9 +326,9 @@ body.type2021 .kv-sp {
 	#kv + .shortcut {
 		position: absolute;
 		width: 160px;
-		height: 340px;
+		height: 160px;
 		right: 25px;
-		top: calc( (100vw / 1920 * 950) - 340px - 25px );
+		top: calc( (100vw / 1920 * 950) - 160px - 25px );
 		z-index: 500;
 	}
 	#kv + .shortcut a {
@@ -660,7 +660,7 @@ body.type2021 .kv-sp {
 @media screen and (min-width: 769px) and (max-width: 1479px) {
 	#kv + .shortcut {
 		width: calc(160 * 100vw / 1480);
-		height: calc(160 * 100vw / 1480 * 2 + 20px);
+		height: calc(160 * 100vw / 1480);
 		right: 25px;
 		/*
 		top: calc((550 * 100vw / 1480) - (160 * 100vw / 1480 * 2 + 40px));
@@ -668,7 +668,7 @@ body.type2021 .kv-sp {
 		/*
 		top: calc( (100vw / 1920 * 950) - (160 * 100vw / 1480 * 2 + 20px) - 25px );
 		*/
-		top: calc( (100vw / 1920 * 950) - (160 * 100vw / 1480 * 2 + 20px) - 45px );
+		top: calc( (100vw / 1920 * 950) - (160 * 100vw / 1480) - 25px );
 		z-index: 500;
 	}
 	#kv + .shortcut a {
