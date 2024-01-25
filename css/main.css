@@ -969,6 +969,9 @@ body.type2021 .kv-sp {
 		*/
 		width: 100%;
 	}
+	#kv + .shortcut li:nth-child(1) {
+		display: none;
+	}
 	.shortcut a {
 		display: block;
 		height: 45px;
