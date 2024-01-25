@@ -362,7 +362,9 @@ body.type2021 .kv-sp {
 		background: #027fd9;
 	}
 	#kv + .shortcut li + li {
+		/*
 		margin-top: 20px;
+		*/
 	}
 	
 	#kv + .shortcut i {
