@@ -328,7 +328,7 @@ body.type2021 .kv-sp {
 		width: 160px;
 		height: 160px;
 		right: 25px;
-		top: calc( (100vw / 1920 * 950) - 160px - 25px );
+		top: calc( (100vw / 1920 * 1080) - 160px - 25px );
 		z-index: 500;
 	}
 	#kv + .shortcut a {
