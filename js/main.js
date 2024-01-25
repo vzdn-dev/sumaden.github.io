@@ -245,7 +245,7 @@ $(function(){
 		li1.appendChild(a1);
 		li2.appendChild(a2);
 		li3.appendChild(a3);
-		ul1.appendChild(li1);
+		//ul1.appendChild(li1);
 		ul1.appendChild(li2);
 		ul1.appendChild(li3);
 		nav1.appendChild(ul1);
