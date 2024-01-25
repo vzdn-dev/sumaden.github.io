@@ -1581,7 +1581,9 @@ body.scrolled #foot2021 .pagetop {
 
 
 
-
+#kv + .shortcut li:nth-child(1) {
+	visibility: hidden;
+}
 
 
 
