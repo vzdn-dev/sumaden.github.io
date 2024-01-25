@@ -670,7 +670,7 @@ body.type2021 .kv-sp {
 		/*
 		top: calc( (100vw / 1920 * 950) - (160 * 100vw / 1480 * 2 + 20px) - 25px );
 		*/
-		top: calc( (100vw / 1920 * 950) - (160 * 100vw / 1480) - 25px );
+		top: calc( (100vw / 1920 * 1080) - (160 * 100vw / 1480) - 25px );
 		z-index: 500;
 	}
 	#kv + .shortcut a {
