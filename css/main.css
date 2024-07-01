@@ -427,8 +427,9 @@ body.type2021 .kv-sp {
 		padding-top: 0 !important;
 	}
 	.company-logo img {
-		width: 392px !important;
+		width: 500px !important;
 		height: auto;
+		margin-bottom: 30px;
 	}
 	.company-description {
 		width: 820px !important;
