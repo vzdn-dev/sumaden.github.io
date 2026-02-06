@@ -194,6 +194,7 @@ $(function(){
 		}
 		else {
 			logo.src = "https://ferret-one.akamaized.net/images/6985b7ebee71ed3379ff4a70/original.svg";
+			logo.className = "logo-2026";
 			a.href = "https://smaden.com/";
 		}
 		
@@ -356,6 +357,7 @@ $(function(){
 		var logo = new Image();
 		logoBox.className = "logo";
 		logo.src = "https://ferret-one.akamaized.net/images/6985b7ebee71ed3379ff4a70/original.svg";
+		logo.className = "logo-2026";
 		
 		logoBox.appendChild(a);
 		a.appendChild(logo);
