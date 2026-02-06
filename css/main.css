@@ -98,6 +98,15 @@ body.type2021 .kv-sp {
 		width: 100%;
 		height: auto;
 	}
+
+	#head2021 h1:has(.logo-2026) {
+		width: 289px;
+		height: 48px;
+	}
+
+	#head2021 h1:has(.logo-2026) a {
+		height: 48px;
+	}
 	
 	
 	#head2021 .global {
