@@ -195,7 +195,7 @@ $(function(){
 		else {
 			logo.src = "https://ferret-one.akamaized.net/images/6985b7ebee71ed3379ff4a70/original.svg";
 			logo.className = "logo-2026";
-			a.href = "https://smaden.com/";
+			a.href = "https://www.igrid.co.jp/smaden-weekendzero";
 		}
 		
 		a.appendChild(logo);
@@ -235,7 +235,7 @@ $(function(){
 		li2.className = "appli";
 		var a2 = document.createElement("a");
 		a2.innerHTML = "<i></i>お申し込み";
-		a2.href = "https://smaden.com/co2zero/applicationselect";
+		a2.href = "https://smaden.com/applicationselect";
 
 		var li3 = document.createElement("li");
 		li3.className = "login";
@@ -270,10 +270,10 @@ $(function(){
 		
 		
 		var links = [
-			["スマ電CO2ゼロについて", "https://smaden.com/co2zero/about"],
-			["ご契約の流れ", "https://smaden.com/co2zero/flow"],
-			["料金プラン", "https://smaden.com/co2zero/plan"],
-			["よくあるご質問", "https://smaden.com/co2zero/faq"]
+			["スマ電ウィークエンドゼロについて", "https://smaden.com/weekendzero/about"],
+			["ご契約の流れ", "https://smaden.com/weekendzero/flow"],
+			["料金プラン", "https://www.igrid.co.jp/smaden-weekendzero/plan"],
+			["よくあるご質問", "https://smaden.zendesk.com/hc/ja", true]
 		];
 
 		var nav2 = document.createElement("nav");
@@ -287,6 +287,9 @@ $(function(){
 			var _a = document.createElement("a");
 			_a.innerHTML = links[i][0];
 			_a.href = links[i][1];
+			if(links[i][2]) {
+				_a.target = "_blank";
+			}
 			_li.appendChild(_a);
 			ul2.appendChild(_li);
 		}
@@ -302,10 +305,10 @@ $(function(){
 		foot.id = "foot2021";
 		
 		var links1 = [
-			["スマ電CO2ゼロについて", "https://smaden.com/co2zero/about"],
-			["ご契約の流れ", "https://smaden.com/co2zero/flow"],
-			["料金プラン", "https://smaden.com/co2zero/plan"],
-			["よくあるご質問", "https://smaden.com/co2zero/faq"]
+			["スマ電ウィークエンドゼロについて", "https://smaden.com/weekendzero/about"],
+			["ご契約の流れ", "https://smaden.com/weekendzero/flow"],
+			["料金プラン", "https://www.igrid.co.jp/smaden-weekendzero/plan"],
+			["よくあるご質問", "https://smaden.zendesk.com/hc/ja", true]
 		];
 
 		var nav1 = document.createElement("nav");
@@ -319,6 +322,9 @@ $(function(){
 			var a1 = document.createElement("a");
 			a1.innerHTML = links1[i][0];
 			a1.href = links1[i][1];
+			if(links[i][2]) {
+				a1.target = "_blank";
+			}
 			li1.appendChild(a1);
 			ul1.appendChild(li1);
 		}
@@ -326,13 +332,12 @@ $(function(){
 		
 		
 		var links2 = [
-			["お申込みフォーム", "https://smaden.com/co2zero/applicationselect"],
-			["特定商取引法に基づく表記", "https://smaden.com/tokuteisyotorihiki"],
-			["グリラボ", "https://gurilabo.igrid.co.jp/"],
-			["運営会社", "https://smaden.com/info/company.html"],
-			["個人情報保護方針", "https://smaden.com/info/privacy.html"],
-			["電気供給約款", "https://ferret-one.akamaized.net/files/60ee2c5546f54a2c8c0a32c7/agrement.pdf"],
-			["重要事項説明", "https://smaden.com/info/important.html"]
+			["お申込みフォーム", "https://smaden.com/applicationselect"],
+			["特定商取引法に基づく表記", "https://smaden.com/tokuteisyotorihiki", true],
+			["運営会社", "https://igrid.co.jp/company/", true],
+			["個人情報保護方針", "https://smaden.com/info/privacy.html", true],
+			["電気供給約款", "https://smaden.com/importantagreement", true],
+			["重要事項説明", "https://smaden.com/importantagreement", true]
 		];
 
 		var nav2 = document.createElement("nav");
