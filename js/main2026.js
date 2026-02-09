@@ -322,7 +322,7 @@ $(function(){
 			var a1 = document.createElement("a");
 			a1.innerHTML = links1[i][0];
 			a1.href = links1[i][1];
-			if(links[i][2]) {
+			if(links1[i][2]) {
 				a1.target = "_blank";
 			}
 			li1.appendChild(a1);
@@ -351,6 +351,9 @@ $(function(){
 			var a2 = document.createElement("a");
 			a2.innerHTML = links2[i][0];
 			a2.href = links2[i][1];
+			if(links2[i][2]) {
+				a2.target = "_blank";
+			}
 			li2.appendChild(a2);
 			ul2.appendChild(li2);
 		}
