@@ -195,7 +195,7 @@ $(function(){
 		else {
 			logo.src = "https://ferret-one.akamaized.net/images/6985b7ebee71ed3379ff4a70/original.svg";
 			logo.className = "logo-2026";
-			a.href = "https://www.igrid.co.jp/smaden-weekendzero";
+			a.href = "https://igrid.co.jp/smaden-weekendzero";
 		}
 		
 		a.appendChild(logo);
@@ -271,8 +271,8 @@ $(function(){
 		
 		var links = [
 			["スマ電ウィークエンドゼロについて", "https://smaden.com/weekendzero/about"],
-			["ご契約の流れ", "https://smaden.com/weekendzero/flow"],
-			["料金プラン", "https://www.igrid.co.jp/smaden-weekendzero/plan"],
+			["料金プラン", "https://igrid.co.jp/smaden-weekendzero/plan"],
+			["ご利用開始までの流れ", "https://smaden.com/weekendzero/flow"],
 			["よくあるご質問", "https://smaden.zendesk.com/hc/ja", true]
 		];
 
@@ -306,8 +306,8 @@ $(function(){
 		
 		var links1 = [
 			["スマ電ウィークエンドゼロについて", "https://smaden.com/weekendzero/about"],
-			["ご契約の流れ", "https://smaden.com/weekendzero/flow"],
-			["料金プラン", "https://www.igrid.co.jp/smaden-weekendzero/plan"],
+			["料金プラン", "https://igrid.co.jp/smaden-weekendzero/plan"],
+			["ご利用開始までの流れ", "https://smaden.com/weekendzero/flow"],
 			["よくあるご質問", "https://smaden.zendesk.com/hc/ja", true]
 		];
 
