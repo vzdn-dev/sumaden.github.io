@@ -270,7 +270,7 @@ $(function(){
 		
 		
 		var links = [
-			["スマ電ウィークエンドゼロについて", "https://smaden.com/weekendzero/about"],
+			["スマ電ウィークエンドゼロについて", "https://igrid.co.jp/smaden-weekendzero/about"],
 			["料金プラン", "https://igrid.co.jp/smaden-weekendzero/plan"],
 			["ご利用開始までの流れ", "https://smaden.com/weekendzero/flow"],
 			["よくあるご質問", "https://smaden.zendesk.com/hc/ja", true]
@@ -305,7 +305,7 @@ $(function(){
 		foot.id = "foot2021";
 		
 		var links1 = [
-			["スマ電ウィークエンドゼロについて", "https://smaden.com/weekendzero/about"],
+			["スマ電ウィークエンドゼロについて", "https://igrid.co.jp/smaden-weekendzero/about"],
 			["料金プラン", "https://igrid.co.jp/smaden-weekendzero/plan"],
 			["ご利用開始までの流れ", "https://smaden.com/weekendzero/flow"],
 			["よくあるご質問", "https://smaden.zendesk.com/hc/ja", true]
